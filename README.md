@@ -12,25 +12,27 @@ local file system instead of their github uris as shown below.
 Easily generate a Rails 3 application with RSpec, Factory Girl, Haml, and
 jQuery in one line:
 
-    % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/app.rb
+    % rails new my_app -J -T -m app.rb
 
 ## Need Cucumber?
 
 Use this generator file instead:
 
-    % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/cuke.rb
+    % rails new my_app -J -T -m cuke.rb
+
+## Need Cucumber, with erb?
+
+Use this generator file:
+
+    % rails new my_app -J -T -m cuke-erb.rb
 
 ## Want Fabrication instead of Factory Girl?
 
 Use either of the following generators instead:
 
-    % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/fabrication.rb
+    % rails new my_app -J -T -m fabrication.rb
 
-    % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/fabrication_cuke.rb
+    % rails new my_app -J -T -m fabrication_cuke.rb
 
 rvm
 ---
